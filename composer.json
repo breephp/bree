@@ -1,0 +1,108 @@
+{
+  "name": "bridgetphp/bridget",
+  "description": "Bridget (φ) - A modern PHP superset with strong typing and OOP enhancements",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "bridget",
+    "php-transpiler",
+    "oop",
+    "scripting-language",
+    "blade-template",
+    "typesafe",
+    "templating-engine",
+    "oriented-object-programming",
+    "programming-language",
+    "binary",
+    "fetch",
+    "runtime",
+    "compiler",
+    "parser",
+    "compressor",
+    "archiver",
+    "installer",
+    "dotenv",
+    "env",
+    "ini",
+    "ftp-client",
+    "ftp-server",
+    "put-files",
+    "get-files",
+    "input",
+    "path-parsing",
+    "path-parser",
+    "query-parsing",
+    "query-parser",
+    "uri-parsing",
+    "uri-parser",
+    "output",
+    "stream",
+    "type",
+    "let var",
+    "array-config",
+    "events",
+    "event-listener",
+    "event-emitter",
+    "emit-event",
+    "listen-event",
+    "cli-app"
+  ],
+  "homepage": "https://bridgetphp.github.io",
+  "authors": [
+    {
+      "name": "Sigui Kessé Emmanuel",
+      "email": "siguici@proton.me",
+      "homepage": "https://github.com/siguici"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/bridgetphp/bridget",
+    "issues": "https://github.com/bridgetphp/bridget/issues",
+    "chat": "https://github.com/orgs/bridgetphp/discussions",
+    "wiki": "https://github.com/bridgetphp/bridget/wiki"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bridget\\": ["src/core/", "src/framework/"]
+    },
+    "files": ["src/core/bridget.php"]
+  },
+  "require": {
+    "php": "^8.4",
+    "ext-readline": "*"
+  },
+  "require-dev": {
+    "siguici/php-devtools": "^1.1"
+  },
+  "scripts": {
+    "analyse": "phpstan analyse --ansi --memory-limit=-1 --debug",
+    "check": "pint --test -v",
+    "coverage": "pest --coverage",
+    "debug": ["@check", "@analyse", "@review", "@test"],
+    "fix": ["@refactor", "@lint"],
+    "bridget": "@php bridget.php",
+    "lint": "pint -v",
+    "post-install-cmd": ["Bridget\\Concretes\\Installer::postInstall"],
+    "post-update-cmd": ["Bridget\\Concretes\\Installer::postUpdate"],
+    "test": "pest --colors=always",
+    "retest": "pest --retry",
+    "review": "rector --dry-run --debug",
+    "refactor": "rector"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "0.x-dev"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
