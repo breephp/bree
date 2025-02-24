@@ -1,6 +1,6 @@
 {
-  "name": "bridgetphp/bridget",
-  "description": "Bridget (φ) - A modern PHP superset with strong typing and OOP enhancements",
+  "name": "bridget/bridget",
+  "description": "Bridget - A modern PHP superset with strong typing and OOP enhancements",
   "type": "library",
   "license": "MIT",
   "keywords": [

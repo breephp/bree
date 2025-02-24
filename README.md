@@ -13,7 +13,7 @@ Bridget is a modern PHP framework designed to enhance development with strong ty
 Install Bridget via [Composer](https://getcomposer.org) with:
 
 ```sh
-composer global require bridgetphp/bridget:dev-main
+composer global require bridget/bridget:dev-main
 ```
 
 ### 🎉 Try Bridget
@@ -75,17 +75,17 @@ Bridget is a cutting-edge PHP framework that introduces:
 
 ## 🚀 Installation
 
-Install Bridget from [Packagist](https://packagist.org/packages/bridgetphp/bridget) using Composer:
+Install Bridget from [Packagist](https://packagist.org/packages/bridget/bridget) using Composer:
 
 ```sh
-composer global require bridgetphp/bridget:dev-main
+composer global require bridget/bridget:dev-main
 ```
 
 ---
 
 ## 🛠️ Usage
 
-Bridget transpiles `.bridget` files into `.php`, introducing enhanced features while maintaining PHP compatibility.
+Bridget transpiles `.bg` files into `.php`, introducing enhanced features while maintaining PHP compatibility.
 
 ### 🔧 Example Command
 
@@ -93,7 +93,7 @@ Bridget transpiles `.bridget` files into `.php`, introducing enhanced features w
 bridget source.bridget
 ```
 
-This converts `source.bridget` into an optimized PHP file.
+This converts `source.bg` into an optimized PHP file.
 
 ### 📝 Example Code
 
@@ -153,8 +153,8 @@ For questions, issues, or feedback:
 - 🚀 [Open an issue](https://github.com/bridgetphp/bridget/issues/new/choose)
 - 💬 Join [our discussions](https://github.com/bridgetphp/bridget/discussions)
 
-[packagist-version-icon]: https://img.shields.io/packagist/v/bridgetphp/bridget
-[packagist-version-link]: https://packagist.org/packages/bridgetphp/bridget "Bridget Releases"
+[packagist-version-icon]: https://img.shields.io/packagist/v/bridget/bridget
+[packagist-version-link]: https://packagist.org/packages/bridget/bridget "Bridget Releases"
 
-[packagist-download-icon]: https://img.shields.io/packagist/dt/bridgetphp/bridget
-[packagist-download-link]: https://packagist.org/packages/bridgetphp/bridget "Bridget Downloads"
+[packagist-download-icon]: https://img.shields.io/packagist/dt/bridget/bridget
+[packagist-download-link]: https://packagist.org/packages/bridget/bridget "Bridget Downloads"
