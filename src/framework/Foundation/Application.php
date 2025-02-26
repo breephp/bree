@@ -6,4 +6,7 @@ namespace Bridget\Foundation;
 
 use Bridget\Concretes\Container;
 
-class Application extends Container {}
+abstract class Application extends Container
+{
+    abstract public function run(): void;
+}
