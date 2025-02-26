@@ -69,7 +69,8 @@
   },
   "require": {
     "php": "^8.4",
-    "ext-readline": "*"
+    "ext-readline": "*",
+    "psr/container": "^2.0"
   },
   "require-dev": {
     "siguici/php-devtools": "^1.1"
