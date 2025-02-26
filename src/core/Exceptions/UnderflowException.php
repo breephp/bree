@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Bridget\Exceptions;
 
-use Bridget\Concerns\CanCreateException;
-use Bridget\Contracts\IsException;
 use UnderflowException as BaseException;
 
-class UnderflowException extends BaseException implements IsException
+class UnderflowException extends BaseException implements ExceptionInterface
 {
-    use CanCreateException;
+    use ExceptionTrait;
 }

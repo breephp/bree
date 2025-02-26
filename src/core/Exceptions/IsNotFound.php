@@ -6,4 +6,4 @@ namespace Bridget\Exceptions;
 
 use Psr\Container\NotFoundExceptionInterface;
 
-interface IsNotFound extends IsException, NotFoundExceptionInterface {}
+interface IsNotFound extends ExceptionInterface, NotFoundExceptionInterface {}

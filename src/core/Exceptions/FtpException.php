@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Bridget\Exceptions;
 
-class FtpException extends \RuntimeException
+class FtpException extends RuntimeException
 {
     const CONNECTION_FAILURE = 0x01;
 

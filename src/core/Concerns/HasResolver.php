@@ -57,7 +57,7 @@ trait HasResolver
             return Singleton::getContainer()->invoke($action, ...$args);
         }
 
-        throw NotFound::with('Could not find action %s.', [$name]);
+        throw NotFound::new('Could not find action %s.', [$name]);
     }
 
     /**
@@ -80,7 +80,7 @@ trait HasResolver
             return Singleton::getContainer()->invoke($action, ...$args);
         }
 
-        throw NotFound::with('Could not find static action %s.', [$name]);
+        throw NotFound::new('Could not find static action %s.', [$name]);
     }
 
     /**

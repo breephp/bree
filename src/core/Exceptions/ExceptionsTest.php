@@ -17,7 +17,7 @@ use Bridget\Exceptions\UnderflowException as BridgetUnderflowException;
 use Bridget\Exceptions\UnexpectedValueException as BridgetUnexpectedValueException;
 
 test('All Bridget exceptions inherit PHP exceptions', function (string $phpException, string $sikessemException) {
-    $exception = $sikessemException::with('Test %s Error.', [$phpException]);
+    $exception = $sikessemException::new('Test %s Error.', [$phpException]);
     expect($exception)->toBeInstanceOf($phpException);
     expect(fn () => throw $exception)->toThrow($phpException);
 })->with([

@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Bridget\Exceptions;
 
-use Bridget\Concerns\CanCreateException;
-use Bridget\Contracts\IsException;
 use InvalidArgumentException as BaseException;
 
-class InvalidArgumentException extends BaseException implements IsException
+class InvalidArgumentException extends BaseException implements ExceptionInterface
 {
-    use CanCreateException;
+    use ExceptionTrait;
 }

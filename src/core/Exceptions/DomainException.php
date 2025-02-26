@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace Bridget\Exceptions;
 
-use Bridget\Concerns\CanCreateException;
-use Bridget\Contracts\IsException;
 use DomainException as BaseException;
 
-class DomainException extends BaseException implements IsException
+class DomainException extends BaseException implements ExceptionInterface
 {
-    use CanCreateException;
+    use ExceptionTrait;
 }

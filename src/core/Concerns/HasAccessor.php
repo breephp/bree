@@ -24,7 +24,7 @@ trait HasAccessor
             /** @var mixed $result */
             $result = Reflector::getPropertyValue($this, $name);
         } else {
-            throw NotFound::with('Unable to get property %s.', [$name]);
+            throw NotFound::new('Unable to get property %s.', [$name]);
         }
 
         return $result;

@@ -22,7 +22,7 @@ trait HasModifier
         } elseif (property_exists($this, $name)) {
             Reflector::setPropertyValue($this, $name, $value);
         } else {
-            throw NotFound::with('Unable to set property %s.', [$name]);
+            throw NotFound::new('Unable to set property %s.', [$name]);
         }
     }
 

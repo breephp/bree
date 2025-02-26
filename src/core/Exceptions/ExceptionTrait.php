@@ -6,20 +6,20 @@ namespace Bridget\Exceptions;
 
 use Throwable;
 
-trait HasExceptionConstructor
+trait ExceptionTrait
 {
     abstract public function __construct(string $message = '', int $code = 0, ?Throwable $previous = null);
 
     /**
-     * @param  array<string|int>  $arguments
+     * @param  array<string|int|float>  $arguments
      */
-    public static function with(string $message = '', array $arguments = [], int $code = 0, ?Throwable $previous = null): Throwable
+    public static function new(string $message = '', array $arguments = [], int $code = 0, ?Throwable $previous = null): static
     {
         if ($arguments !== []) {
             $message = sprintf($message, ...$arguments);
         }
 
-        $super = new self($message, $code, $previous);
+        $super = new static($message, $code, $previous);
         $trace = backtrace(limit: 3);
 
         $file = $trace->getFile(0);
