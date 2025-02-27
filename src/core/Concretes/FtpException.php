@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Exceptions;
+namespace Bridget\Concretes;
+
+use Spl\Exception\RuntimeException;
 
 class FtpException extends RuntimeException
 {

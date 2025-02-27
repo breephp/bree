@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Exceptions;
+namespace Spl\Exceptions;
 
 use OutOfRangeException as BaseException;
 
