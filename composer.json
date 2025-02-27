@@ -63,13 +63,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Bridget\\": ["src/core/", "src/framework/"]
+      "Bridget\\": ["src/core/", "src/framework/"],
+      "": "src/standard/"
     },
     "files": ["src/core/bridget.php"]
   },
   "require": {
     "php": "^8.4",
-    "ext-readline": "*",
+    "ext-readline": "*"
+  },
+  "replace": {
     "psr/container": "^2.0"
   },
   "require-dev": {
