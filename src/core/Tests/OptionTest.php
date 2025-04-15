@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use Bridget\Bases\BaseOption;
-use Bridget\Concretes\Option;
-use Bridget\Contracts\IsOption;
+use Bree\Bases\BaseOption;
+use Bree\Concretes\Option;
+use Bree\Contracts\IsOption;
 
 test('option', function () {
     $option = new Option('engine', 'phi');

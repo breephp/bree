@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Contracts;
+namespace Bree\Contracts;
 
 interface IsArgument extends HasIndex, HasValue {}

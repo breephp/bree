@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Cast;
-use Bridget\Contracts\IsInt;
-use Bridget\Contracts\IsNumber;
-use Bridget\Objects\IntObject;
+use Bree\Concretes\Cast;
+use Bree\Contracts\IsInt;
+use Bree\Contracts\IsNumber;
+use Bree\Objects\IntObject;
 
 beforeEach(function () {
     $this->int = Cast::toInt(42);

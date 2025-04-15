@@ -1,6 +1,6 @@
-# 🛤️ Bridget Development Roadmap
+# 🛤️ Bree Development Roadmap
 
-This roadmap outlines the complete development process of the Bridget framework, from its core to extensions, including essential features and packages.
+This roadmap outlines the complete development process of the Bree framework, from its core to extensions, including essential features and packages.
 
 ---
 
@@ -46,7 +46,7 @@ This roadmap outlines the complete development process of the Bridget framework,
   - Support for middleware and request lifecycle management.
 
 - [ ] **CLI and Developer Tools**
-  - Develop a CLI tool (`bridget`) for managing projects.
+  - Develop a CLI tool (`bree`) for managing projects.
   - Commands for creating components, running builds, and managing dependencies.
 
 - [ ] **API and RESTful Services**
@@ -82,7 +82,7 @@ This roadmap outlines the complete development process of the Bridget framework,
 
 ## 🏗️ Phase 6: Plugin System and Extensions
 
-- [ ] **Bridget Package Manager**
+- [ ] **Bree Package Manager**
   - Create and install custom modules.
   - Manage dependencies and documentation.
 

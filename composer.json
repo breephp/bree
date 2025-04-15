@@ -1,10 +1,10 @@
 {
-  "name": "bridget/bridget",
-  "description": "Bridget - A modern PHP superset with strong typing and OOP enhancements",
+  "name": "bree/bree",
+  "description": "Bree - A modern PHP superset with strong typing and OOP enhancements",
   "type": "library",
   "license": "MIT",
   "keywords": [
-    "bridget",
+    "bree",
     "php-transpiler",
     "oop",
     "scripting-language",
@@ -47,7 +47,7 @@
     "listen-event",
     "cli-app"
   ],
-  "homepage": "https://bridgetphp.github.io",
+  "homepage": "https://breephp.github.io",
   "authors": [
     {
       "name": "Sigui Kessé Emmanuel",
@@ -56,17 +56,17 @@
     }
   ],
   "support": {
-    "source": "https://github.com/bridgetphp/bridget",
-    "issues": "https://github.com/bridgetphp/bridget/issues",
-    "chat": "https://github.com/orgs/bridgetphp/discussions",
-    "wiki": "https://github.com/bridgetphp/bridget/wiki"
+    "source": "https://github.com/breephp/bree",
+    "issues": "https://github.com/breephp/bree/issues",
+    "chat": "https://github.com/orgs/breephp/discussions",
+    "wiki": "https://github.com/breephp/bree/wiki"
   },
   "autoload": {
     "psr-4": {
-      "Bridget\\": ["src/core/", "src/framework/"],
+      "Bree\\": ["src/core/", "src/framework/"],
       "": "src/standard/"
     },
-    "files": ["src/core/bridget.php"]
+    "files": ["src/core/bree.php"]
   },
   "require": {
     "php": "^8.4",
@@ -84,10 +84,10 @@
     "coverage": "pest --coverage",
     "debug": ["@check", "@analyse", "@review", "@test"],
     "fix": ["@refactor", "@lint"],
-    "bridget": "@php bridget.php",
+    "bree": "@php bree.php",
     "lint": "pint -v",
-    "post-install-cmd": ["Bridget\\Concretes\\Installer::postInstall"],
-    "post-update-cmd": ["Bridget\\Concretes\\Installer::postUpdate"],
+    "post-install-cmd": ["Bree\\Concretes\\Installer::postInstall"],
+    "post-update-cmd": ["Bree\\Concretes\\Installer::postUpdate"],
     "test": "pest --colors=always",
     "retest": "pest --retry",
     "review": "rector --dry-run --debug",

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsScalar;
-use Bridget\Contracts\IsScalar;
+use Bree\Concerns\AsScalar;
+use Bree\Contracts\IsScalar;
 
 class ScalarObject implements IsScalar
 {

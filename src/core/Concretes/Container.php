@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Exception\BadValue;
-use Bridget\Exception\NotFound;
+use Bree\Exception\BadValue;
+use Bree\Exception\NotFound;
 use Psr\Container\ContainerInterface;
 use ReflectionFunction;
 use ReflectionFunctionAbstract;

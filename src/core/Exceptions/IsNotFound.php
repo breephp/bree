@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Exceptions;
+namespace Bree\Exceptions;
 
 use Psr\Container\NotFoundExceptionInterface;
 use Spl\Exceptions\ExceptionInterface;

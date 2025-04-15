@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Bases\BaseCommand;
+use Bree\Bases\BaseCommand;
 
 /**
  * The command class

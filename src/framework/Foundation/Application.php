@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation;
+namespace Bree\Foundation;
 
-use Bridget\Concretes\Container;
+use Bree\Concretes\Container;
 
 abstract class Application extends Container
 {

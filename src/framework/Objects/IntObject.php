@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsInt;
-use Bridget\Contracts\IsInt;
+use Bree\Concerns\AsInt;
+use Bree\Contracts\IsInt;
 
 class IntObject implements IsInt
 {

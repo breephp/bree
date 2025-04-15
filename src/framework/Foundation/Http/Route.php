@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation\Http;
+namespace Bree\Foundation\Http;
 
-use Bridget\Foundation\Action;
+use Bree\Foundation\Action;
 
 class Route extends Action
 {

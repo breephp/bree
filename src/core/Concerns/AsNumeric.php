@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concerns;
+namespace Bree\Concerns;
 
-use Bridget\Types\ScalarType;
+use Bree\Types\ScalarType;
 
 trait AsNumeric
 {

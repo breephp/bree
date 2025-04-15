@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Types;
+namespace Bree\Types;
 
-use Bridget\Concerns\AsUnionType;
-use Bridget\Contracts\IsType;
-use Bridget\Contracts\IsUnionType;
+use Bree\Concerns\AsUnionType;
+use Bree\Contracts\IsType;
+use Bree\Contracts\IsUnionType;
 
 final class UnionType extends Type implements IsUnionType
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Cast;
-use Bridget\Contracts\IsMixed;
-use Bridget\Contracts\IsScalar;
-use Bridget\Objects\ScalarObject;
+use Bree\Concretes\Cast;
+use Bree\Contracts\IsMixed;
+use Bree\Contracts\IsScalar;
+use Bree\Objects\ScalarObject;
 
 beforeEach(function () {
     $this->scalar = Cast::toScalar('Hello World');

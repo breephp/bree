@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Bases;
+namespace Bree\Bases;
 
-use Bridget\Contracts\IsType;
+use Bree\Contracts\IsType;
 
 abstract class BaseType implements IsType
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Cast;
-use Bridget\Contracts\IsNumeric;
-use Bridget\Contracts\IsScalar;
-use Bridget\Objects\NumericObject;
+use Bree\Concretes\Cast;
+use Bree\Contracts\IsNumeric;
+use Bree\Contracts\IsScalar;
+use Bree\Objects\NumericObject;
 
 beforeEach(function () {
     $this->numeric = Cast::toNumeric('84.21');

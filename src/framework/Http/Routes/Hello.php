@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Http\Routes;
+namespace Bree\Http\Routes;
 
-use Bridget\Foundation\Http\Route;
+use Bree\Foundation\Http\Route;
 
 class Hello extends Route
 {

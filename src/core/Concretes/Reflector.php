@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Exception\CannotReflect;
+use Bree\Exception\CannotReflect;
 use Closure;
 use ReflectionClass;
 use ReflectionFunction;

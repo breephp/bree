@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concerns;
+namespace Bree\Concerns;
 
-use Bridget\Contracts\IsType;
-use Bridget\Enums\BuiltinType;
-use Bridget\Types\NamedType;
+use Bree\Contracts\IsType;
+use Bree\Enums\BuiltinType;
+use Bree\Types\NamedType;
 
 trait WithType
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
 class UrlParsed
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Bases;
+namespace Bree\Bases;
 
-use Bridget\Contracts\IsArgument;
+use Bree\Contracts\IsArgument;
 
 abstract class BaseArgument implements IsArgument
 {

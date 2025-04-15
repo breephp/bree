@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Autoloader;
-use Bridget\Concretes\AutoloaderInit;
+use Bree\Concretes\Autoloader;
+use Bree\Concretes\AutoloaderInit;
 
 require_once __DIR__.'/core/Concretes/AutoloaderInit.php';
 
 return AutoloaderInit::getAutoloader(then: static function (Autoloader $autoloader) {
     $autoloader
-        ->setNamespace('Bridget', ['core', 'framework'])
+        ->setNamespace('Bree', ['core', 'framework'])
         ->useExtension('.bg')
-        ->useFile('bridget')
+        ->useFile('bree')
         ->register();
 });

@@ -1,7 +1,7 @@
-# Release Notes for Bridget
+# Release Notes for Bree
 
-All notable changes to [Bridget](https://github.com/bridgetphp/bridget) will be documented in this file.
+All notable changes to [Bree](https://github.com/breephp/bree) will be documented in this file.
 
-## [Unreleased](https://github.com/bridgetphp/bridget/compare/v0.0.0...HEAD)
+## [Unreleased](https://github.com/breephp/bree/compare/v0.0.0...HEAD)
 
-**Full Changelog:** [v0.0.0...v0.x](https://github.com/bridgetphp/bridget/compare/v0.0.0...v0.x)
+**Full Changelog:** [v0.0.0...v0.x](https://github.com/breephp/bree/compare/v0.0.0...v0.x)

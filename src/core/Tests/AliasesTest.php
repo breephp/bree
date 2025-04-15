@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Alias;
-use Bridget\Concretes\Aliases;
+use Bree\Concretes\Alias;
+use Bree\Concretes\Aliases;
 
 test('aliases', function () {
     $aliases = new Aliases('b', 'hi', new Alias('p'));

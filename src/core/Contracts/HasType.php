@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Contracts;
+namespace Bree\Contracts;
 
-use Bridget\Enums\BuiltinType;
+use Bree\Enums\BuiltinType;
 
 interface HasType
 {

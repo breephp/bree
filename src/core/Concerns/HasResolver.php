@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concerns;
+namespace Bree\Concerns;
 
-use Bridget\Concretes\Singleton;
-use Bridget\Exceptions\NotFound;
+use Bree\Concretes\Singleton;
+use Bree\Exceptions\NotFound;
 
 trait HasResolver
 {

@@ -1,6 +1,6 @@
-# 👏 Contributing to the Bridget core
+# 👏 Contributing to the Bree core
 
-We want to make contributing to [Bridget](https://github.com/bridgetphp/bridget) as easy and
+We want to make contributing to [Bree](https://github.com/breephp/bree) as easy and
 transparent as possible.
 
 Contributions are welcome, and are accepted via pull requests.
@@ -31,5 +31,5 @@ clear and has sufficient instructions to be able to reproduce the issue.
 
 ## License
 
-By contributing to [Bridget](https://github.com/bridgetphp/bridget), you agree that your
+By contributing to [Bree](https://github.com/breephp/bree), you agree that your
 contributions will be licensed under the [LICENSE.md](./LICENSE.md) file.

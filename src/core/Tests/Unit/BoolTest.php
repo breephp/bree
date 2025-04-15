@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Cast;
-use Bridget\Contracts\IsBool;
-use Bridget\Contracts\IsScalar;
-use Bridget\Objects\BoolObject;
+use Bree\Concretes\Cast;
+use Bree\Contracts\IsBool;
+use Bree\Contracts\IsScalar;
+use Bree\Objects\BoolObject;
 
 beforeEach(function () {
     $this->bool = Cast::toBool(true);

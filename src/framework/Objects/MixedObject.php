@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsMixed;
-use Bridget\Contracts\IsMixed;
+use Bree\Concerns\AsMixed;
+use Bree\Contracts\IsMixed;
 
 class MixedObject implements IsMixed
 {

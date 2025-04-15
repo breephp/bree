@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Console;
+namespace Bree\Console;
 
 class Icon extends Util
 {

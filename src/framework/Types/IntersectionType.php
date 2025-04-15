@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Types;
+namespace Bree\Types;
 
-use Bridget\Concerns\AsIntersectionType;
-use Bridget\Contracts\IsIntersectionType;
-use Bridget\Contracts\IsType;
+use Bree\Concerns\AsIntersectionType;
+use Bree\Contracts\IsIntersectionType;
+use Bree\Contracts\IsType;
 
 final class IntersectionType extends Type implements IsIntersectionType
 {

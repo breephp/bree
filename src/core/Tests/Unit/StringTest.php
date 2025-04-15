@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Cast;
-use Bridget\Contracts\IsScalar;
-use Bridget\Contracts\IsString;
-use Bridget\Objects\StringObject;
+use Bree\Concretes\Cast;
+use Bree\Contracts\IsScalar;
+use Bree\Contracts\IsString;
+use Bree\Objects\StringObject;
 
 beforeEach(function () {
     $this->string = Cast::toString('Hello World');

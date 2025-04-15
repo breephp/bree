@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Bases;
+namespace Bree\Bases;
 
 abstract class BaseCommand extends BaseArgument implements CommandInterface
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Bases;
+namespace Bree\Bases;
 
-use Bridget\Contracts\IsParameter;
-use Bridget\Contracts\IsType;
-use Bridget\Enums\TypeName;
+use Bree\Contracts\IsParameter;
+use Bree\Contracts\IsType;
+use Bree\Enums\TypeName;
 
 abstract class BaseParameter implements IsParameter
 {

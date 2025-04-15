@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Console\Input;
-use Bridget\Console\Output;
+use Bree\Console\Input;
+use Bree\Console\Output;
 use InvalidArgumentException;
 use RuntimeException;
 

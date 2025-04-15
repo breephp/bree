@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Bases\BaseArgument;
-use Bridget\Concerns\AsArgument;
+use Bree\Bases\BaseArgument;
+use Bree\Concerns\AsArgument;
 
 class Argument extends BaseArgument
 {

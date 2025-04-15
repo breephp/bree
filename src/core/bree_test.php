@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Backtrace;
-use Bridget\Concretes\Container;
-use Bridget\Contracts\IsAccessible;
-use Bridget\Contracts\IsEncapsulated;
-use Bridget\Contracts\IsModifiable;
-use Bridget\Contracts\IsResolvable;
-use Bridget\Exceptions\NotFound;
-use Bridget\Samples\CustomClass;
+use Bree\Concretes\Backtrace;
+use Bree\Concretes\Container;
+use Bree\Contracts\IsAccessible;
+use Bree\Contracts\IsEncapsulated;
+use Bree\Contracts\IsModifiable;
+use Bree\Contracts\IsResolvable;
+use Bree\Exceptions\NotFound;
+use Bree\Samples\CustomClass;
 
 beforeEach(function () {
     $this->trace = new Backtrace;
@@ -27,7 +27,7 @@ test('its helper should match its class', function () {
 });
 
 beforeEach(function () {
-    $this->container = new CustomClass('Bridget');
+    $this->container = new CustomClass('Bree');
 });
 
 it('should be encapsulated', function () {
@@ -39,13 +39,13 @@ it('should be encapsulated', function () {
 });
 
 it('should be resolvable', function () {
-    $hello = fn (?string $name = null) => 'Hello '.($name ?? 'Bridget').'!';
+    $hello = fn (?string $name = null) => 'Hello '.($name ?? 'Bree').'!';
     CustomClass::onStatic('hello', $hello);
     $this->container->on('hello', $hello);
 
     expect(CustomClass::hello())
         ->toEqual($this->container->hello())
-        ->toEqual('Hello Bridget!');
+        ->toEqual('Hello Bree!');
 });
 
 it('should set and get name', function () {
@@ -74,7 +74,7 @@ it('should provide the components', function () {
     $c = new Container([
         'class' => CustomClass::class,
         CustomClass::class => [
-            'name' => 'Bridget',
+            'name' => 'Bree',
             'year' => date('Y'),
         ],
         CustomInterface::class => new CustomClass,
@@ -83,6 +83,6 @@ it('should provide the components', function () {
     expect($c)->toBeInstanceOf(Container::class);
     expect($class = $c->get('class'))->toBeInstanceOf(CustomClass::class);
     expect($interface = $c->get(CustomInterface::class))->toBeInstanceOf(CustomClass::class);
-    expect($class->getName())->toEqual('Bridget');
+    expect($class->getName())->toEqual('Bree');
     expect($interface->getName())->toEqual('World');
 });

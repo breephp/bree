@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Bases\BaseParameter;
-use Bridget\Concerns\AsParameter;
+use Bree\Bases\BaseParameter;
+use Bree\Concerns\AsParameter;
 
 class Parameter extends BaseParameter
 {

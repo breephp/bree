@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation;
+namespace Bree\Foundation;
 
 abstract class Action
 {

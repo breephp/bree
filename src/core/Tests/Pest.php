@@ -13,7 +13,7 @@ declare(strict_types=1);
 |
 */
 
-// uses(Bridget\Tests\TestCase::class)->in('Feat');
+// uses(Bree\Tests\TestCase::class)->in('Feat');
 
 /*
 |--------------------------------------------------------------------------

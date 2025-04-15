@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Backtrace;
-use Bridget\Concretes\FtpClient;
-use Bridget\Concretes\FtpDotenv;
-use Bridget\Concretes\FtpServer;
-use Bridget\Concretes\Let;
-use Bridget\Concretes\Map;
-use Bridget\Concretes\Statement;
-use Bridget\Config\Loader as ConfigLoader;
+use Bree\Concretes\Backtrace;
+use Bree\Concretes\FtpClient;
+use Bree\Concretes\FtpDotenv;
+use Bree\Concretes\FtpServer;
+use Bree\Concretes\Let;
+use Bree\Concretes\Map;
+use Bree\Concretes\Statement;
+use Bree\Config\Loader as ConfigLoader;
 
 if (! function_exists('backtrace')) {
     function backtrace(int $flags = Backtrace::DEFAULT_FLAGS, int $reset = Backtrace::DEFAULT_RESET, int $limit = Backtrace::DEFAULT_LIMIT): Backtrace
@@ -18,8 +18,8 @@ if (! function_exists('backtrace')) {
     }
 }
 
-if (! function_exists('bridget_map')) {
-    function bridget_map(string $key_type, string $value_type): Map
+if (! function_exists('bree_map')) {
+    function bree_map(string $key_type, string $value_type): Map
     {
         return new Map($key_type, $value_type);
     }

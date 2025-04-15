@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Config;
+namespace Bree\Config;
 
 trait LoaderTrait
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Bases;
+namespace Bree\Bases;
 
-use Bridget\Contracts\IsOption;
+use Bree\Contracts\IsOption;
 
 abstract class BaseOption implements IsOption
 {

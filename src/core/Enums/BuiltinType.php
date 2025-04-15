@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Enums;
+namespace Bree\Enums;
 
 enum BuiltinType: string
 {

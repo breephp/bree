@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Bases\BaseOption;
-use Bridget\Concerns\AsOption;
+use Bree\Bases\BaseOption;
+use Bree\Concerns\AsOption;
 
 class Option extends BaseOption
 {

@@ -1,42 +1,42 @@
-# 🚀 Bridget - The Next-Gen PHP Framework
+# 🚀 Bree - The Next-Gen PHP Framework
 
 [![packagist-version-icon]][packagist-version-link] [![packagist-download-icon]][packagist-download-link]
 
-Bridget is a modern PHP framework designed to enhance development with strong typing, advanced object-oriented features, and a powerful templating system inspired by Blade. 💡✨
+Bree is a modern PHP framework designed to enhance development with strong typing, advanced object-oriented features, and a powerful templating system inspired by Blade. 💡✨
 
 ---
 
 ## ⚡ Quick Start
 
-### 📦 Install Bridget
+### 📦 Install Bree
 
-Install Bridget via [Composer](https://getcomposer.org) with:
+Install Bree via [Composer](https://getcomposer.org) with:
 
 ```sh
-composer global require bridget/bridget:dev-main
+composer global require bree/bree:dev-main
 ```
 
-### 🎉 Try Bridget
+### 🎉 Try Bree
 
 Create a `hello.bg` file:
 
-```bridget
+```bree
 Hello, $name!
 ```
 
 Run it with:
 
 ```sh
-bridget run hello --name=Bridget
+bree run hello --name=Bree
 ```
 
-This displays: **Hello, Bridget!** 🎊
+This displays: **Hello, Bree!** 🎊
 
 ---
 
-## ❓ What is Bridget?
+## ❓ What is Bree?
 
-Bridget is a cutting-edge PHP framework that introduces:
+Bree is a cutting-edge PHP framework that introduces:
 
 ✅ **Strong typing** for better code reliability 🔍
 ✅ **Advanced OOP features** for maintainable applications 🏗️
@@ -45,7 +45,7 @@ Bridget is a cutting-edge PHP framework that introduces:
 
 ---
 
-## 🔥 Why Choose Bridget?
+## 🔥 Why Choose Bree?
 
 - 🚀 **Enhances PHP without breaking compatibility** – Upgrade your projects without major rewrites.
 - ✍️ **No need for PHPDoc & annotations** – Types are enforced at both transpilation and runtime.
@@ -75,22 +75,22 @@ Bridget is a cutting-edge PHP framework that introduces:
 
 ## 🚀 Installation
 
-Install Bridget from [Packagist](https://packagist.org/packages/bridget/bridget) using Composer:
+Install Bree from [Packagist](https://packagist.org/packages/bree/bree) using Composer:
 
 ```sh
-composer global require bridget/bridget:dev-main
+composer global require bree/bree:dev-main
 ```
 
 ---
 
 ## 🛠️ Usage
 
-Bridget transpiles `.bg` files into `.php`, introducing enhanced features while maintaining PHP compatibility.
+Bree transpiles `.bg` files into `.php`, introducing enhanced features while maintaining PHP compatibility.
 
 ### 🔧 Example Command
 
 ```sh
-bridget source.bridget
+bree source.bree
 ```
 
 This converts `source.bg` into an optimized PHP file.
@@ -99,7 +99,7 @@ This converts `source.bg` into an optimized PHP file.
 
 ```php
 <?php
-// Strongly-typed function in Bridget
+// Strongly-typed function in Bree
 function greet<T extends string>(T $name): T {
     return "Hello, $name!";
 }
@@ -121,7 +121,7 @@ echo greet("World");
 ?>
 ```
 
-Bridget ensures type safety at transpilation, making PHP development more robust. 🛡️
+Bree ensures type safety at transpilation, making PHP development more robust. 🛡️
 
 ---
 
@@ -142,7 +142,7 @@ Please follow our coding style and contribution guidelines. 🙌
 
 ## 📜 License
 
-Bridget is licensed under the **MIT License**. See the [LICENSE.md](LICENSE.md) file for details.
+Bree is licensed under the **MIT License**. See the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
@@ -150,11 +150,11 @@ Bridget is licensed under the **MIT License**. See the [LICENSE.md](LICENSE.md) 
 
 For questions, issues, or feedback:
 
-- 🚀 [Open an issue](https://github.com/bridgetphp/bridget/issues/new/choose)
-- 💬 Join [our discussions](https://github.com/bridgetphp/bridget/discussions)
+- 🚀 [Open an issue](https://github.com/breephp/bree/issues/new/choose)
+- 💬 Join [our discussions](https://github.com/breephp/bree/discussions)
 
-[packagist-version-icon]: https://img.shields.io/packagist/v/bridget/bridget
-[packagist-version-link]: https://packagist.org/packages/bridget/bridget "Bridget Releases"
+[packagist-version-icon]: https://img.shields.io/packagist/v/bree/bree
+[packagist-version-link]: https://packagist.org/packages/bree/bree "Bree Releases"
 
-[packagist-download-icon]: https://img.shields.io/packagist/dt/bridget/bridget
-[packagist-download-link]: https://packagist.org/packages/bridget/bridget "Bridget Downloads"
+[packagist-download-icon]: https://img.shields.io/packagist/dt/bree/bree
+[packagist-download-link]: https://packagist.org/packages/bree/bree "Bree Downloads"

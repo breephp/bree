@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Types\Type;
+use Bree\Types\Type;
 
 class Filter
 {

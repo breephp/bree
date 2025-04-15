@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation\Http;
+namespace Bree\Foundation\Http;
 
-use Bridget\Foundation\Application as BaseApplication;
+use Bree\Foundation\Application as BaseApplication;
 
 class Application extends BaseApplication
 {
     public function run(): void
     {
-        echo '<p>Welcome to Bridget HTTP Application!</p>';
+        echo '<p>Welcome to Bree HTTP Application!</p>';
     }
 }

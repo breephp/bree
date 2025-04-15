@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsFloat;
-use Bridget\Contracts\IsFloat;
+use Bree\Concerns\AsFloat;
+use Bree\Contracts\IsFloat;
 
 class FloatObject implements IsFloat
 {

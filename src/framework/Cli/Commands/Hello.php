@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Http\Routes;
+namespace Bree\Cli\Commands;
 
-use Bridget\Foundation\Cli\Command;
+use Bree\Foundation\Cli\Command;
 
 class Hello extends Command
 {

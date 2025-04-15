@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation\Http;
+namespace Bree\Foundation\Http;
 
 class Router
 {

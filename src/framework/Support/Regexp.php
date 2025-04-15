@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Support;
+namespace Bree\Support;
 
 class Regexp
 {

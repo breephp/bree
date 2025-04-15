@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 arch('strict')
-    ->expect('Bridget\\')
+    ->expect('Bree\\')
     ->toUseStrictTypes();
 
 arch()
@@ -17,34 +17,34 @@ arch()
     ->ignoring(['extract', 'parse_str']);
 
 arch('bases')
-    ->expect('Bridget\Bases')
+    ->expect('Bree\Bases')
     ->classes()
     ->toBeAbstract()
     ->toHavePrefix('Base');
 
 arch('concerns')
-    ->expect('Bridget\Concerns')
+    ->expect('Bree\Concerns')
     ->traits()
-    ->toOnlyBeUsedIn(['Bridget\Bases', 'Bridget\Concerns', 'Bridget\Exceptions', 'Bridget\Samples']);
+    ->toOnlyBeUsedIn(['Bree\Bases', 'Bree\Concerns', 'Bree\Exceptions', 'Bree\Samples']);
 
 arch('contracts')
-    ->expect('Bridget\Contracts')
+    ->expect('Bree\Contracts')
     ->interfaces()
-    ->toOnlyBeUsedIn(['Bridget\Bases', 'Bridget\Contracts', 'Bridget\Exceptions', 'Bridget\Samples']);
+    ->toOnlyBeUsedIn(['Bree\Bases', 'Bree\Contracts', 'Bree\Exceptions', 'Bree\Samples']);
 
 arch('enums')
-    ->expect('Bridget\Enums')
+    ->expect('Bree\Enums')
     ->enums()
-    ->toOnlyBeUsedIn(['Bridget\Bases', 'Bridget\Types', 'Bridget\Concerns', 'Bridget\Contracts']);
+    ->toOnlyBeUsedIn(['Bree\Bases', 'Bree\Types', 'Bree\Concerns', 'Bree\Contracts']);
 
 arch('objects')
-    ->expect('Bridget\Objects')
+    ->expect('Bree\Objects')
     ->classes()
     ->toHaveSuffix('Object')
     ->toHaveConstructor();
 
 arch('types')
-    ->expect('Bridget\Types')
+    ->expect('Bree\Types')
     ->classes()
     ->toHaveSuffix('Type')
-    ->toExtend('Bridget\Bases\BaseType');
+    ->toExtend('Bree\Bases\BaseType');

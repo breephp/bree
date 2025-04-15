@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concerns;
+namespace Bree\Concerns;
 
-use Bridget\Contracts\IsType;
-use Bridget\Contracts\IsUnionType;
-use Bridget\Enums\BuiltinType;
-use Bridget\Types\IsIntersectionType;
+use Bree\Contracts\IsType;
+use Bree\Contracts\IsUnionType;
+use Bree\Enums\BuiltinType;
+use Bree\Types\IsIntersectionType;
 
 trait AsUnionType
 {

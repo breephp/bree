@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Bridget\Bases\BaseParameter;
-use Bridget\Concretes\Parameter;
-use Bridget\Contracts\IsParameter;
-use Bridget\Enums\BuiltinType;
+use Bree\Bases\BaseParameter;
+use Bree\Concretes\Parameter;
+use Bree\Contracts\IsParameter;
+use Bree\Enums\BuiltinType;
 
 test('parameter', function () {
     $parameter = new Parameter('string', 'engine', 'phi');

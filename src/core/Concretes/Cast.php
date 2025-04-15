@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Contracts\IsBool;
-use Bridget\Contracts\IsFloat;
-use Bridget\Contracts\IsInt;
-use Bridget\Contracts\IsMixed;
-use Bridget\Contracts\IsNumber;
-use Bridget\Contracts\IsNumeric;
-use Bridget\Contracts\IsScalar;
-use Bridget\Contracts\IsString;
-use Bridget\Objects\BoolObject;
-use Bridget\Objects\FloatObject;
-use Bridget\Objects\IntObject;
-use Bridget\Objects\MixedObject;
-use Bridget\Objects\NumberObject;
-use Bridget\Objects\NumericObject;
-use Bridget\Objects\ScalarObject;
-use Bridget\Objects\StringObject;
+use Bree\Contracts\IsBool;
+use Bree\Contracts\IsFloat;
+use Bree\Contracts\IsInt;
+use Bree\Contracts\IsMixed;
+use Bree\Contracts\IsNumber;
+use Bree\Contracts\IsNumeric;
+use Bree\Contracts\IsScalar;
+use Bree\Contracts\IsString;
+use Bree\Objects\BoolObject;
+use Bree\Objects\FloatObject;
+use Bree\Objects\IntObject;
+use Bree\Objects\MixedObject;
+use Bree\Objects\NumberObject;
+use Bree\Objects\NumericObject;
+use Bree\Objects\ScalarObject;
+use Bree\Objects\StringObject;
 
 class Cast
 {

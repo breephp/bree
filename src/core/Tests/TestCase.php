@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Tests;
+namespace Bree\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

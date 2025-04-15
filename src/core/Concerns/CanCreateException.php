@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concerns;
+namespace Bree\Concerns;
 
 use Throwable;
 

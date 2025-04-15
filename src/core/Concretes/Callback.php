@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Exception\UnableToCall;
+use Bree\Exception\UnableToCall;
 use Closure;
 
 final class Callback

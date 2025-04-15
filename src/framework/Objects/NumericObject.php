@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsNumeric;
-use Bridget\Contracts\IsNumeric;
+use Bree\Concerns\AsNumeric;
+use Bree\Contracts\IsNumeric;
 
 class NumericObject implements IsNumeric
 {

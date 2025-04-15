@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsBool;
-use Bridget\Contracts\IsBool;
+use Bree\Concerns\AsBool;
+use Bree\Contracts\IsBool;
 
 class BoolObject implements IsBool
 {

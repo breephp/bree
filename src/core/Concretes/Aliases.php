@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Concerns\AsListed;
-use Bridget\Contracts\IsListed;
+use Bree\Concerns\AsListed;
+use Bree\Contracts\IsListed;
 
 class Aliases implements IsListed
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation\Cli;
+namespace Bree\Foundation\Cli;
 
-use Bridget\Foundation\Action;
+use Bree\Foundation\Action;
 
 class Command extends Action
 {

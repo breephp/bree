@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concerns;
+namespace Bree\Concerns;
 
-use Bridget\Concretes\Singleton;
-use Bridget\Exceptions\NotFound;
-use Bridget\Reflector;
+use Bree\Concretes\Singleton;
+use Bree\Exceptions\NotFound;
+use Bree\Reflector;
 
 trait HasModifier
 {

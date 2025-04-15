@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Events;
+namespace Bree\Events;
 
 trait Listener
 {

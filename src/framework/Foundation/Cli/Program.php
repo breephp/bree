@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation\Cli;
+namespace Bree\Foundation\Cli;
 
 class Program
 {

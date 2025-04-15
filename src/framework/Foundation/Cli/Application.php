@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Foundation\Cli;
+namespace Bree\Foundation\Cli;
 
-use Bridget\Foundation\Application as BaseApplication;
+use Bree\Foundation\Application as BaseApplication;
 
 class Application extends BaseApplication
 {
     public function run(): void
     {
-        echo 'Welcome to Bridget CLI Application!'.PHP_EOL;
+        echo 'Welcome to Bree CLI Application!'.PHP_EOL;
     }
 }

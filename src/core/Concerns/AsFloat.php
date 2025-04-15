@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concerns;
+namespace Bree\Concerns;
 
-use Bridget\Types\NumberType;
+use Bree\Types\NumberType;
 
 trait AsFloat
 {

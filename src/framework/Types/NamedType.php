@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Types;
+namespace Bree\Types;
 
-use Bridget\Concerns\AsNamedType;
-use Bridget\Contracts\IsNamedType;
-use Bridget\Enums\BuiltinType;
+use Bree\Concerns\AsNamedType;
+use Bree\Contracts\IsNamedType;
+use Bree\Enums\BuiltinType;
 
 final class NamedType extends Type implements IsNamedType
 {

@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Http;
+namespace Bree\Http;
 
-use Bridget\Foundation\Http\Application as BaseApplication;
+use Bree\Foundation\Http\Application as BaseApplication;
 
 class Application extends BaseApplication {}

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Tests;
+namespace Bree\Tests;
 
-use Bridget\Concretes\Let;
-use Bridget\Concretes\Statement;
+use Bree\Concretes\Let;
+use Bree\Concretes\Statement;
 
 class LetTest implements Statement
 {

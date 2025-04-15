@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Bridget\Concretes\Cast;
-use Bridget\Contracts\IsFloat;
-use Bridget\Contracts\IsNumber;
-use Bridget\Objects\FloatObject;
+use Bree\Concretes\Cast;
+use Bree\Contracts\IsFloat;
+use Bree\Contracts\IsNumber;
+use Bree\Objects\FloatObject;
 
 beforeEach(function () {
     $this->float = Cast::toFloat(84.21);

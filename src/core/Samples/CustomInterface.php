@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Samples;
+namespace Bree\Samples;
 
-use Bridget\Contracts\IsEncapsulated;
+use Bree\Contracts\IsEncapsulated;
 
 interface CustomInterface extends IsEncapsulated
 {

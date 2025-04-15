@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Samples;
+namespace Bree\Samples;
 
 final class CustomClass implements CustomInterface
 {

@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Config;
+namespace Bree\Config;
 
 interface SettingsInterface extends MagicSettingsInterface, SettingsArrayInterface, SettingsOffsetsInterface, SettingsOptionsInterface {}

@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Cli;
+namespace Bree\Cli;
 
-use Bridget\Foundation\Cli\Application as BaseApplication;
+use Bree\Foundation\Cli\Application as BaseApplication;
 
 class Application extends BaseApplication {}

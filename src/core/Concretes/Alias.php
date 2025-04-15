@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Concretes;
+namespace Bree\Concretes;
 
-use Bridget\Concerns\AsNamed;
-use Bridget\Contracts\IsNamed;
+use Bree\Concerns\AsNamed;
+use Bree\Contracts\IsNamed;
 
 class Alias implements IsNamed
 {

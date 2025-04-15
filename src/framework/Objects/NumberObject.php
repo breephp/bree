@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsNumber;
-use Bridget\Contracts\IsNumber;
+use Bree\Concerns\AsNumber;
+use Bree\Contracts\IsNumber;
 
 class NumberObject implements IsNumber
 {

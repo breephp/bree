@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use Bridget\Bases\BaseArgument;
-use Bridget\Concretes\Argument;
-use Bridget\Contracts\IsArgument;
+use Bree\Bases\BaseArgument;
+use Bree\Concretes\Argument;
+use Bree\Contracts\IsArgument;
 
 test('argument', function () {
     $argument = new Argument(0, 'phi');

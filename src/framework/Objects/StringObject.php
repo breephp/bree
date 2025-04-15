@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bridget\Objects;
+namespace Bree\Objects;
 
-use Bridget\Concerns\AsString;
-use Bridget\Contracts\IsString;
+use Bree\Concerns\AsString;
+use Bree\Contracts\IsString;
 
 class StringObject implements IsString
 {
